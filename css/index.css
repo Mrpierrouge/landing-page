@@ -102,6 +102,28 @@ p{
 	text-align:center;
 
 }
+#bandeau{
+	display: flex;
+	background-color: #588386;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right:3%;
+	padding-left:3%;
+	margin-top: 50px;
+	color: black;
+	justify-content: space-between;
+	align-content: center;
+	position: sticky;
+	bottom: 0px;
+}
+#bandeau p{
+	flex-direction: wrap;
+	display: flex;
+	background-color: #588386;
+	color: black;
+	justify-content: space-between;
+	align-content: center;
+}
 
 @media screen and (max-width: 1300px){
 	p{
@@ -158,5 +180,14 @@ p{
 
 	#navbar{
 		gap: 2px;
+	}
+}
+@media screen and (max-width: 340px){
+
+	#bandeau p{
+		font-size: 10px;
+	}
+	.lien_navbar{
+		font-size: 12px;
 	}
 }
