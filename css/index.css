@@ -42,7 +42,9 @@ h1 {
 	font-size: 30px;
 	font-weight: bold;
 	color: black;
-
+}
+.lien_navbar:hover{
+	color:#e1ebE1;
 }
 #premier_visu{
 	margin-top: 20px;
